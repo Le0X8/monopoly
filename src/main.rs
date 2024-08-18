@@ -1,3 +1,5 @@
+mod properties;
+
 fn main() {
-    println!("Hello, world!");
+    println!("{:?}", properties::properties());
 }
